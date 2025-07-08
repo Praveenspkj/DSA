@@ -1,0 +1,81 @@
+1.What is graph?
+2.What are components?
+3.What is Types of Graphs?
+4.Real-Life Examples?
+5.How to input is given?
+
+1.)### 📘 What is a **Graph**?
+
+A **graph** is a non-linear data structure consisting of **nodes** (also called **vertices**) connected by **edges**. It is widely used to model relationships, networks, and paths in real-life scenarios — like social networks, road maps, and the internet.
+
+---
+
+2.)### 🧩 Components of a Graph
+
+| Component               | Description                                                                                                |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Vertex (Node)**       | A fundamental unit or point in a graph. Represented as `V`.                                                |
+| **Edge (Link)**         | A connection between two vertices. Represented as `E`.                                                     |
+| **Adjacency**           | A pair of nodes is said to be adjacent if there is an edge between them.                                   |
+| **Degree**              | Number of edges incident to a node. For directed graphs: `in-degree` and `out-degree`.                     |
+| **Path**                | A sequence of vertices where each adjacent pair is connected by an edge.                                   |
+| **Cycle**               | A path that starts and ends at the same vertex, with no repeated edges or vertices (except the start/end). |
+| **Connected Component** | A subgraph in which any two vertices are connected by paths.                                               |
+
+---
+
+### 🧱 Types of Graphs
+
+#### 1. **Based on Direction**
+
+| Type                         | Description                                                                                              |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **Undirected Graph**         | Edges have no direction. If there's an edge between `A` and `B`, you can go both ways.                   |
+| **Directed Graph (Digraph)** | Edges have a direction. If there's an edge from `A` to `B`, it doesn't mean there's one from `B` to `A`. |
+
+#### 2. **Based on Edge Weights**
+
+| Type                 | Description                                             |
+| -------------------- | ------------------------------------------------------- |
+| **Unweighted Graph** | All edges are equal — no weights.                       |
+| **Weighted Graph**   | Each edge has a weight/cost, e.g., distance, time, etc. |
+
+#### 3. **Based on Cycles**
+
+| Type                             | Description                                                                    |
+| -------------------------------- | ------------------------------------------------------------------------------ |
+| **Cyclic Graph**                 | Contains one or more cycles.                                                   |
+| **Acyclic Graph**                | Has no cycles.                                                                 |
+| **DAG (Directed Acyclic Graph)** | A directed graph with no cycles. Used in scheduling, topological sorting, etc. |
+
+#### 4. **Based on Connectivity**
+
+| Type                   | Description                                               |
+| ---------------------- | --------------------------------------------------------- |
+| **Connected Graph**    | There's a path between any two vertices (for undirected). |
+| **Disconnected Graph** | Not all vertices are reachable from each other.           |
+
+#### 5. **Special Graphs**
+
+| Type                | Description                                                                     |
+| ------------------- | ------------------------------------------------------------------------------- |
+| **Complete Graph**  | Every pair of vertices is connected.                                            |
+| **Sparse Graph**    | Has very few edges.                                                             |
+| **Dense Graph**     | Has many edges (close to maximum possible).                                     |
+| **Tree**            | A connected acyclic undirected graph.                                           |
+| **Bipartite Graph** | Vertices can be divided into 2 disjoint sets with no edges within the same set. |
+
+---
+
+### 📌 Real-Life Examples
+
+* **Google Maps**: Cities are nodes, roads are edges.
+* **Facebook**: Users are nodes, friendships are edges.
+* **Web**: Pages are nodes, hyperlinks are directed edges.
+
+---
+
+5.)How to input is given?
+ a.)edges
+ b.)matrix
+ c.)adjencyList
