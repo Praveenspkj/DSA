@@ -1,0 +1,91 @@
+
+## 🔍 1.)What is the Two Pointers Pattern?
+
+The **Two Pointers** technique involves using **two indices** (usually `left` and `right`) to iterate through a data structure (commonly an array or string). These pointers typically **move towards each other**, or **one chases the other**, depending on the problem.
+
+---
+
+## 🧠 2.When and Why to Use Two Pointers
+
+Use the Two Pointers pattern when:
+
+1. ✅ You're working with **sorted arrays** or strings.
+2. ✅ You're trying to **find a pair**, **subarray**, or **window** that satisfies a condition.
+3. ✅ You want to **avoid O(n²)** brute-force comparisons (pairs, triplets, etc.).
+4. ✅ You can **move one or both pointers** in a logical way to maintain constraints (like sum, length, frequency, etc.).
+
+---
+
+## 🎯3. Why It Works (The Intuition)
+
+* You **leverage the order** of the data (e.g., sorted arrays).
+* Instead of checking every pair, you **systematically eliminate impossible pairs** by moving the appropriate pointer.
+* You often **reduce nested loops** (O(n²)) into a single pass (O(n)).
+
+---
+
+## 🧠4. Variations of Two Pointers
+
+1. **Opposite ends approach**: One pointer starts from the beginning, the other from the end.
+2. **Sliding window (moving window)**: Both pointers move forward.
+3. **Fast and slow pointers**: Used in cycle detection (Floyd's algorithm), etc.
+
+---
+
+## 📘 Template (Opposite Ends Approach)
+
+```java
+int left = 0;
+int right = arr.length - 1;
+
+while (left < right) {
+    int sum = arr[left] + arr[right];
+
+    if (sum == target) {
+        // Found pair
+        break;
+    } else if (sum < target) {
+        left++;
+    } else {
+        right--;
+    }
+}
+```
+
+---
+
+## 🧪 Must-Solve Problems to Master Two Pointers
+
+## Algomaster(5)
+
+1.Merge Sorted Array(https://leetcode.com/problems/merge-sorted-array/description/)
+       Approach 1: Merge Then Sort
+       Approach 2: Two-Pointer Technique
+          System.arraycopy(sorted, 0, nums1, 0, m + n);
+       Approach 3: In-place Two-Pointer Technique (Optimal)
+          Start from end and add larger elements first.
+
+2.Leetcode 167: Two Sum II - Input Array Is Sorted
+    Brute Force Approach
+    Two Pointer Approach
+
+3.Leetcode 11: Container With Most Water
+  Brute Force
+  Two-Pointer Technique
+
+4.Leetcode Problem 15: 3Sum
+  1.Brute Force Approach
+  2.Two Pointers Approach
+    To ensure there is no duplicate values use skip the next values if it equals to previous val
+         [1,       2,      2,     3,      3,     3]
+         check-->check-->skip-->check-->skip-->skip
+         if (i == 0 || nums[i] != nums[i - 1]) {
+          while (left < right && nums[left] == nums[left + 1]) left++;
+          while (left < right && nums[right] == nums[right - 1]) right--;
+          }
+
+5.Leetcode 42: Trapping Rain Water
+  Brute Force
+  Dynamic Programming
+  Two Pointers
+   Think of current position and what its leftmax and rightMax

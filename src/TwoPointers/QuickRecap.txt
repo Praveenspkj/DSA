@@ -1,0 +1,16 @@
+2-pointer template
+
+a.)2-ptrs are moving in same direction in different arrays
+   1.)https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/description/
+      List<int[]> result = new ArrayList<>();
+      return result.toArray(new int[result.size()][]);
+   2.)https://leetcode.com/problems/merge-sorted-array/description/
+
+b.)(partition)2-ptrs are moving in same direction in same array and first pointer ptr1 moves only if second pointer ptr2 meets the condition (swap/insert)
+   1.)https://leetcode.com/problems/sort-array-by-parity/
+   2.)https://leetcode.com/problems/remove-element/description/
+   3.)https://leetcode.com/problems/remove-duplicates-from-sorted-array/  (start the loop from 1 to n)
+
+c.)(FixedDistance)3-ptrs(ptr1,ptr2,ptr3) are moving in same direction ptr3 (swap/insert) according to condition requirement in crt position of (ptr1/ptr2).
+   1.)https://leetcode.com/problems/sort-array-by-parity-ii/
+   2.)https://leetcode.com/problems/rearrange-array-elements-by-sign/ (inplace is not possble with maintaing order) so use extra space
