@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38904bfe-2d7c-4bee-9229-84ed4a70b07a" name="Changes" comment="Muruga 12-6-2025 2-pointers" />
+    <list default="true" id="38904bfe-2d7c-4bee-9229-84ed4a70b07a" name="Changes" comment="Muruga 12-6-2025 2-pointers">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointers/QuickRecap.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/QuickRecap.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,24 +44,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AdjencyList.executor": "Run",
-    "Application.CheckStringPalindrome.executor": "Run",
-    "Application.Fibonacci.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Matrix.executor": "Run",
-    "Application.Practice.executor": "Run",
-    "Application.PrintingSomeThingNtimes.executor": "Run",
-    "Application.ReverseAnArray.executor": "Run",
-    "Application.ReverseLinkedList.executor": "Run",
-    "Application.SumOfFirstNNumbers.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/praveenkumars/Desktop/JavaFiles/DSA/DSA/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AdjencyList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckStringPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintingSomeThingNtimes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseAnArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfFirstNNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/praveenkumars/Desktop/JavaFiles/DSA/DSA/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Practice">
     <configuration name="CheckStringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.Questions.medium.CheckStringPalindrome" />
@@ -184,8 +187,27 @@
       <option name="project" value="LOCAL" />
       <updated>1752326414247</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Muruga 12-6-2025 2-pointers">
+      <option name="closed" value="true" />
+      <created>1752326474377</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752326474377</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Muruga" />

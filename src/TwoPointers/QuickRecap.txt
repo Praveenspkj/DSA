@@ -14,3 +14,15 @@ b.)(partition)2-ptrs are moving in same direction in same array and first pointe
 c.)(FixedDistance)3-ptrs(ptr1,ptr2,ptr3) are moving in same direction ptr3 (swap/insert) according to condition requirement in crt position of (ptr1/ptr2).
    1.)https://leetcode.com/problems/sort-array-by-parity-ii/
    2.)https://leetcode.com/problems/rearrange-array-elements-by-sign/ (inplace is not possble with maintaing order) so use extra space
+   3.)https://leetcode.com/problems/partition-array-according-to-given-pivot/ (inplace is not possible with maintaining order) so use extra space
+   4.)https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/
+
+d.)(logic)standard 2-ptr closing togeather ptr1--->  <---ptr2
+  1.)https://leetcode.com/problems/rotate-array/
+  2.)https://leetcode.com/problems/3sum/description/
+  3.)https://leetcode.com/problems/3sum-closest/description/
+  4.)https://leetcode.com/problems/4sum/description/
+
+e.)(logic)standard 2-ptr pointers ptr1-->ptr2--> (swap/insert)
+  1.)https://leetcode.com/problems/apply-operations-to-an-array/description/
+  2.)https://leetcode.com/problems/two-sum/description/
