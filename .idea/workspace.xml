@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38904bfe-2d7c-4bee-9229-84ed4a70b07a" name="Changes" comment="Muruga 12-6-2025 2-pointers">
+    <list default="true" id="38904bfe-2d7c-4bee-9229-84ed4a70b07a" name="Changes" comment="Muruga 13-6-2025 2-pointers">
+      <change afterPath="$PROJECT_DIR$/src/PrefixSum/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sorting/mergeSort/Practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoPointers/QuickRecap.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointers/QuickRecap.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,57 +45,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AdjencyList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckStringPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Matrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintingSomeThingNtimes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseAnArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfFirstNNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/praveenkumars/Desktop/JavaFiles/DSA/DSA/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdjencyList.executor": "Run",
+    "Application.CheckStringPalindrome.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Matrix.executor": "Run",
+    "Application.Practice.executor": "Run",
+    "Application.PrefixSum.Practice.executor": "Run",
+    "Application.PrintingSomeThingNtimes.executor": "Run",
+    "Application.ReverseAnArray.executor": "Run",
+    "Application.ReverseLinkedList.executor": "Run",
+    "Application.SumOfFirstNNumbers.executor": "Run",
+    "Application.sorting.mergeSort.Practice.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/praveenkumars/Desktop/JavaFiles/DSA/DSA/src/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="Application.Practice">
-    <configuration name="CheckStringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Questions.medium.CheckStringPalindrome" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.Questions.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Questions.easy.Fibonacci" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.Questions.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.sorting.mergeSort.Practice">
     <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TwoPointers.Practice" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TwoPointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrefixSum.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrefixSum.Practice" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PrefixSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,13 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sorting.mergeSort.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.mergeSort.Practice" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.mergeSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sorting.mergeSort.Practice" />
+        <item itemvalue="Application.PrefixSum.Practice" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.ReverseAnArray" />
-        <item itemvalue="Application.CheckStringPalindrome" />
-        <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752326474377</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Muruga 13-6-2025 2-pointers">
+      <option name="closed" value="true" />
+      <created>1752424850838</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1752424850838</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +225,7 @@
     <MESSAGE value="Muruga 8-6-2025&#10;Basic of graph" />
     <MESSAGE value="Muruga 8-6-2025&#10;recursion basics" />
     <MESSAGE value="Muruga 12-6-2025 2-pointers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Muruga 12-6-2025 2-pointers" />
+    <MESSAGE value="Muruga 13-6-2025 2-pointers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Muruga 13-6-2025 2-pointers" />
   </component>
 </project>

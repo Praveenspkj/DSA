@@ -1,0 +1,154 @@
+Great! Prefix Sum is one of the **most powerful and fundamental patterns** in **competitive programming** — especially for solving **range sum** and **subarray** problems efficiently.
+
+---
+
+## ✅ What is Prefix Sum?
+
+**Prefix Sum** is a **preprocessing technique** used to compute the **cumulative sum** of an array, such that each position `i` in the prefix array represents the sum of all elements from the beginning up to index `i`.
+
+### 👉 Formula:
+
+Let `arr[]` be the original array of size `n`.
+
+Then the **prefix sum array `prefix[]`** is defined as:
+
+```
+prefix[0] = arr[0]
+prefix[i] = prefix[i-1] + arr[i]   for i = 1 to n-1
+```
+
+---
+
+## ❓ Why Use It (Intuition)?
+
+* To answer queries like:
+  **“What is the sum of elements between index `l` and `r`?”**
+  instead of looping from `l` to `r` every time (**O(n)**),
+  we **precompute prefix sums** to answer in **O(1)**.
+
+### 📌 Key Trick:
+
+```
+sum(l to r) = prefix[r] - prefix[l-1]
+```
+
+If `l = 0`, then:
+
+```
+sum(0 to r) = prefix[r]
+```
+
+---
+
+## 📍 When to Use It?
+
+Use Prefix Sum pattern when:
+
+* You need to answer **multiple sum/range queries** quickly.
+* Problems mention "**subarrays**", "**range sums**", "**cumulative**", or "**count in a range**".
+* You're optimizing brute-force loops.
+
+---
+
+## 🧠 Where Is It Used?
+
+1. **Range sum queries** – Leetcode, CP contests.
+2. **Subarray problems** – Find subarrays with a target sum, etc.
+3. **Frequency counting in ranges**.
+4. **Bitwise or 2D prefix sums (like in matrix sum)**.
+5. **Binary search over prefix sums** – advanced variant.
+
+---
+
+## 💡 How Does It Work (Example)?
+
+### ➤ Problem:
+
+```text
+arr = [3, 2, 4, 5, 1]
+Query: What is the sum of elements from index 1 to 3?
+```
+
+### ➤ Brute-force: O(n) per query
+
+```
+sum = arr[1] + arr[2] + arr[3] = 2 + 4 + 5 = 11
+```
+
+### ➤ Using Prefix Sum:
+
+```
+prefix[0] = 3
+prefix[1] = 3 + 2 = 5
+prefix[2] = 5 + 4 = 9
+prefix[3] = 9 + 5 = 14
+prefix[4] = 14 + 1 = 15
+
+Sum(1 to 3) = prefix[3] - prefix[0] = 14 - 3 = 11 ✅
+```
+
+---
+
+## ✍️ Java Code Template
+
+```java
+int[] prefixSum(int[] nums) {
+    int[] prefix = new int[nums.length];
+    prefix[0] = nums[0];
+    for (int i = 1; i < nums.length; i++) {
+        prefix[i] = prefix[i - 1] + nums[i];
+    }
+    return prefix;
+}
+
+int rangeSum(int[] prefix, int l, int r) {
+    if (l == 0) return prefix[r];
+    return prefix[r] - prefix[l - 1];
+}
+```
+
+---
+
+## 🔥 Advanced Variations
+
+| Variant                    | Description                               |
+| -------------------------- | ----------------------------------------- |
+| **2D Prefix Sum**          | Matrix-based problems (`O(1)` region sum) |
+| **Binary Prefix Sum**      | Using `Fenwick Tree` or `BIT`             |
+| **Prefix XOR / GCD / Min** | Cumulative logical/bit operations         |
+| **Difference Array**       | For range updates                         |
+
+---
+
+## 🧩 Intuition Recap:
+
+Think of prefix sum as turning a **looping task into subtraction**:
+
+* Instead of summing in loop every time, you **build once**, then **query in O(1)**.
+
+---
+
+## 🧠 Key Questions to Practice
+
+| Problem Type    | Sample Problems                                                       |
+| --------------- | --------------------------------------------------------------------- |
+| Subarray Sum    | [LC 560](https://leetcode.com/problems/subarray-sum-equals-k/)        |
+| Range Sum       | [LC 303](https://leetcode.com/problems/range-sum-query-immutable/)    |
+| 2D Matrix Sum   | [LC 304](https://leetcode.com/problems/range-sum-query-2d-immutable/) |
+| Count Subarrays | Count subarrays with even sum                                         |
+| Range Frequency | Count number of times `x` appears in range                            |
+
+---
+
+ALGOMASTER QUESTIONS
+
+1.)303. Range Sum Query - Immutable
+   1.) Brute Force Approach
+   2.)Prefix Sum Array Approach
+      standard prefixSum problem solved using the formula.(prefix[right]-prefix[left-1])
+
+2.)Leetcode 560: Subarray Sum Equals K
+   Approaches
+    Brute Force Approach
+    Using Cumulative Sum Array (prefix[n+1]-->[0,1,1,1])
+    Using HashMap for Optimized Approach (remember to add map.put(0,1));
