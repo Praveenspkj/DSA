@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38904bfe-2d7c-4bee-9229-84ed4a70b07a" name="Changes" comment="Muruga 13-6-2025 2-pointers">
-      <change afterPath="$PROJECT_DIR$/src/PrefixSum/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorting/mergeSort/Practice.java" afterDir="false" />
+    <list default="true" id="38904bfe-2d7c-4bee-9229-84ed4a70b07a" name="Changes" comment="21-07-25 sorting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/mergeSort/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/mergeSort/Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,7 @@
     "Application.Practice.executor": "Run",
     "Application.PrefixSum.Practice.executor": "Run",
     "Application.PrintingSomeThingNtimes.executor": "Run",
+    "Application.QuickSort.executor": "Run",
     "Application.ReverseAnArray.executor": "Run",
     "Application.ReverseLinkedList.executor": "Run",
     "Application.SumOfFirstNNumbers.executor": "Run",
@@ -65,7 +65,7 @@
     "onboarding.tips.debug.path": "/Users/praveenkumars/Desktop/JavaFiles/DSA/DSA/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.sorting.mergeSort.Practice">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TwoPointers.Practice" />
       <module name="DSA" />
@@ -92,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Questions.medium.ReverseAnArray" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.QuickSort.QuickSort" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.Questions.medium.*" />
+          <option name="PATTERN" value="sorting.QuickSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.sorting.mergeSort.Practice" />
         <item itemvalue="Application.PrefixSum.Practice" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.ReverseAnArray" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752424850838</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="21-07-25 sorting">
+      <option name="closed" value="true" />
+      <created>1753098131940</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753098131940</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +234,7 @@
     <MESSAGE value="Muruga 8-6-2025&#10;recursion basics" />
     <MESSAGE value="Muruga 12-6-2025 2-pointers" />
     <MESSAGE value="Muruga 13-6-2025 2-pointers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Muruga 13-6-2025 2-pointers" />
+    <MESSAGE value="21-07-25 sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="21-07-25 sorting" />
   </component>
 </project>
