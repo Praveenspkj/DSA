@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38904bfe-2d7c-4bee-9229-84ed4a70b07a" name="Changes" comment="21-07-25 sorting">
+      <change afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Backtracking/Backtracking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Recursion/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Recursion/basic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Recursion/quickLookUp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Recursion/restAll.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sorting/QuickSort/restAll.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sorting/mergeSort/quickLookUp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sorting/mergeSort/restAll.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/mergeSort/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/mergeSort/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Questions/easy/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Recursion_Problems/Questions/easy/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Questions/easy/PrintingSomeThingNtimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Recursion_Problems/Questions/easy/PrintingSomeThingNtimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Questions/easy/SumOfFirstNNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Recursion_Problems/Questions/easy/SumOfFirstNNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Questions/medium/CheckStringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Recursion_Problems/Questions/medium/CheckStringPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Questions/medium/ReverseAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Recursion_Problems/Questions/medium/ReverseAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Questions/medium/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Recursion_Problems/Questions/medium/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Revision" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/restAll.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/DSAPatternWiseSampleFinal.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Revision.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Revision.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/QuickSort/AllThingsPraticed" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Backtracking/basic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/mergeSort/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/mergeSort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/mergeSort/Quickrecap" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Backtracking/quickLookUp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/mergeSort/Revision" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Backtracking/restAll.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -62,9 +83,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/praveenkumars/Desktop/JavaFiles/DSA/DSA/src/Recursion_Backtracking",
     "onboarding.tips.debug.path": "/Users/praveenkumars/Desktop/JavaFiles/DSA/DSA/src/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Recursion_Backtracking" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/graph" />
+      <recent name="$PROJECT_DIR$/files" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.QuickSort">
     <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TwoPointers.Practice" />
@@ -106,11 +137,11 @@
       </method>
     </configuration>
     <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Questions.medium.ReverseLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="Recursion_Backtracking.Recursion_Problems.Questions.medium.ReverseLinkedList" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.Questions.medium.*" />
+          <option name="PATTERN" value="Recursion_Backtracking.Recursion_Problems.Questions.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753098131940</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="21-07-25 sorting">
+      <option name="closed" value="true" />
+      <created>1753202341786</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1753202341786</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

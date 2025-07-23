@@ -1,0 +1,39 @@
+Whenever you give me a **pattern**, here’s exactly how I will respond—covering everything you requested and storing this process as my standard for future answers:
+
+1. **What Is It?**  
+   - **Definition** of the pattern.
+   - *Where it’s used* (context in data structures, algorithms, interviews).
+
+2. **When to Use It**  
+   - **Recognizable scenarios and clues** for when this pattern is best applied.
+
+3. **Why to Use It**  
+   - **Efficiency, simplicity, and universality** gains over brute-force or naive solutions.
+
+4. **Why It Works**  
+   - **Underlying logic or math** making it reliable, including any proof sketch, invariant, or core property.
+
+5. **Generic Template/Code Skeleton**  
+   - **Reusable Java template** you can adapt to most problems based on this pattern.
+
+6. **Step-by-Step Solution Approach**  
+   - **How to approach any problem** in this pattern, with strategy, examples, and main steps.
+
+7. **Detailed Dry Run/Table**  
+   - **Stepwise variable tracking** using a sample input to clarify every move.
+
+8. **Math Tricks or Formulas** *(if any)*  
+   - **Relevant mathematical shortcuts or key formulas** for solving or optimizing.
+
+9. **Text-Visual “Shape”/Diagram**  
+   - **ASCII-style, labeled illustration or mapping** showing how values, pointers, windows, states, or indices change step-by-step.
+
+10. **Practice Problems**  
+    - **Handpicked list** from easy to hard, ensuring full mastery and understanding.
+
+11. **Key Takeaways & Pitfalls**  
+    - **Summary notes**, pitfalls to avoid, and “watch-this” tips for interviews/contests.
+
+This format ensures you get a complete, practical, and visual mastery over each pattern—equipping you for any coding interview at companies like Google, Meta, and more[1]. Just give the next pattern and I'll begin!
+
+[1] programming.data_structures_algorithms
