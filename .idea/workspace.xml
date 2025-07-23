@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38904bfe-2d7c-4bee-9229-84ed4a70b07a" name="Changes" comment="21-07-25 sorting">
-      <change afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Backtracking/Backtracking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Recursion/Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Recursion/basic.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Recursion/quickLookUp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Recursion/restAll.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorting/QuickSort/restAll.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorting/mergeSort/quickLookUp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorting/mergeSort/restAll.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Questions/easy/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Recursion_Problems/Questions/easy/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Questions/easy/PrintingSomeThingNtimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Recursion_Problems/Questions/easy/PrintingSomeThingNtimes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Questions/easy/SumOfFirstNNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Recursion_Problems/Questions/easy/SumOfFirstNNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Questions/medium/CheckStringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Recursion_Problems/Questions/medium/CheckStringPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Questions/medium/ReverseAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Recursion_Problems/Questions/medium/ReverseAnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Questions/medium/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Recursion_Problems/Questions/medium/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Revision" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/restAll.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/DSAPatternWiseSampleFinal.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Revision.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Revision.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/QuickSort/AllThingsPraticed" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Backtracking/basic.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/mergeSort/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/mergeSort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/mergeSort/Quickrecap" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Backtracking/quickLookUp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/mergeSort/Revision" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Backtracking/Algomaster_Backtracking/restAll.txt" afterDir="false" />
-    </list>
+    <list default="true" id="38904bfe-2d7c-4bee-9229-84ed4a70b07a" name="Changes" comment="binary-search &#10;sorting&#10;backtracking" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -253,7 +230,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753202341786</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="binary-search &#10;sorting&#10;backtracking">
+      <option name="closed" value="true" />
+      <created>1753243301312</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1753243301312</updated>
+    </task>
+    <task id="LOCAL-00011" summary="binary-search &#10;sorting&#10;backtracking">
+      <option name="closed" value="true" />
+      <created>1753243408901</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1753243408901</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,6 +267,7 @@
     <MESSAGE value="Muruga 12-6-2025 2-pointers" />
     <MESSAGE value="Muruga 13-6-2025 2-pointers" />
     <MESSAGE value="21-07-25 sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="21-07-25 sorting" />
+    <MESSAGE value="binary-search &#10;sorting&#10;backtracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary-search &#10;sorting&#10;backtracking" />
   </component>
 </project>
